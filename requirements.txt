@@ -1,0 +1,2 @@
+# Book Manager - Sprint 1
+# El proyecto utiliza unicamente librerias de la biblioteca estandar de Python.
