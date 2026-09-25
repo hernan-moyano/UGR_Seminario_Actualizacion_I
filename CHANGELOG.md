@@ -1,3 +1,7 @@
+[Ejercicio 03]
+- Definicion de las interfaces de repositorio (IRepositorio, IRepositorioStock, IRepositorioCotizacionDolar) con abc y Generic.
+- Implementacion de los repositorios en memoria con el CRUD completo de cada entidad.
+
 [Ejercicio 02]
 - Definicion de las ocho clases entidad (Libro, Genero, Editorial, Moneda, TipoCotizacion, Precio, Stock, CotizacionDolar).
 - Aplicacion de encapsulamiento con atributos privados, propiedades y validaciones.
