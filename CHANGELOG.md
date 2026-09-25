@@ -1,3 +1,8 @@
+[Ejercicio 04]
+- Implementacion de LibreriaService con la logica de negocio de cada operacion CRUD.
+- Validacion de relaciones entre entidades (libro-editorial/genero, precio-libro/moneda, stock-libro, cotizacion-tipo).
+- Reportes: stock bajo, libros por genero y cotizacion del dia.
+
 [Ejercicio 03]
 - Definicion de las interfaces de repositorio (IRepositorio, IRepositorioStock, IRepositorioCotizacionDolar) con abc y Generic.
 - Implementacion de los repositorios en memoria con el CRUD completo de cada entidad.
