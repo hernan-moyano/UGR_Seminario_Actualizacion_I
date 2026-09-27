@@ -1,3 +1,7 @@
+[Ejercicio 07]
+- Creacion de main.py como punto de entrada del sistema.
+- Carga automatica de datos CSV y modo no interactivo para validar el notebook con Ejecutar todo.
+
 [Ejercicio 06]
 - Implementacion de la interfaz de consola (CLI) con menus CRUD para las ocho entidades.
 - Menu de reportes integrado a la consola.
