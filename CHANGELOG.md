@@ -1,3 +1,7 @@
+[Ejercicio 05]
+- Generacion de los archivos CSV de migracion en migrations/csv con 10 registros por entidad (libreria estandar csv).
+- Implementacion de la importacion de datos desde CSV al servicio respetando el orden de las relaciones.
+
 [Ejercicio 04]
 - Implementacion de LibreriaService con la logica de negocio de cada operacion CRUD.
 - Validacion de relaciones entre entidades (libro-editorial/genero, precio-libro/moneda, stock-libro, cotizacion-tipo).
