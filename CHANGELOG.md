@@ -1,3 +1,7 @@
+[Ejercicio 06]
+- Implementacion de la interfaz de consola (CLI) con menus CRUD para las ocho entidades.
+- Menu de reportes integrado a la consola.
+
 [Ejercicio 05]
 - Generacion de los archivos CSV de migracion en migrations/csv con 10 registros por entidad (libreria estandar csv).
 - Implementacion de la importacion de datos desde CSV al servicio respetando el orden de las relaciones.
