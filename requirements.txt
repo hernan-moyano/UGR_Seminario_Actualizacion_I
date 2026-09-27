@@ -1,2 +1,25 @@
 # Book Manager - Sprint 1
-# El proyecto utiliza unicamente librerias de la biblioteca estandar de Python.
+# Dependencias del proyecto.
+#
+# Requisito: Python >= 3.10
+# Validado con Python 3.14.3.
+#
+# Este proyecto NO tiene dependencias de terceros: se implementa unicamente
+# con la biblioteca estandar de Python. Por eso este archivo no declara
+# ningun paquete y "pip install -r requirements.txt" no instala nada.
+#
+# Modulos de la biblioteca estandar utilizados:
+#   abc         - interfaces abstractas de los repositorios.
+#   csv         - generacion e importacion de los CSV de migracion.
+#   dataclasses - entidades Stock y CotizacionDolar.
+#   datetime    - fechas de las cotizaciones.
+#   pathlib     - rutas de los archivos CSV de migracion.
+#   typing      - anotaciones de tipo (Generic, TypeVar, Optional, Dict...).
+#
+# Instalacion:
+#   pip install -r requirements.txt
+#
+# Ejecucion (el paquete vive en src/, por eso hay que exponerlo en el
+# PYTHONPATH):
+#   Windows (PowerShell):  $env:PYTHONPATH="src"; python -m book_manager.main
+#   Linux/macOS (bash):    PYTHONPATH=src python -m book_manager.main

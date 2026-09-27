@@ -49,6 +49,9 @@ class EntidadNombrada(EntidadBase):
     def to_dict(self) -> Dict[str, Any]:
         return {"id": self.id, "nombre": self.nombre}
 
+    def __str__(self) -> str:
+        return f"ID={self.id} Nombre={self.nombre}"
+
 
 class Genero(EntidadNombrada):
     """Categoría literaria a la que pertenece un libro."""
@@ -98,6 +101,9 @@ class Moneda(EntidadBase):
             "codigo": self.codigo,
             "descripcion": self.descripcion,
         }
+
+    def __str__(self) -> str:
+        return f"ID={self.id} Código={self.codigo} Descripción={self.descripcion}"
 
 
 class Libro(EntidadBase):
@@ -232,6 +238,12 @@ class Precio(EntidadBase):
             "moneda_id": self.moneda_id,
             "monto": self.monto,
         }
+
+    def __str__(self) -> str:
+        return (
+            f"ID={self.id} Libro ID={self.libro_id} "
+            f"Moneda ID={self.moneda_id} Monto={self.monto}"
+        )
 
 
 @dataclass
